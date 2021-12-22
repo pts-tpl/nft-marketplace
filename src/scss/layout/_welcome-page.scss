@@ -1,4 +1,5 @@
 .welcome-page {
+    background-color: white;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -7,17 +8,25 @@
 }
 
 .welcome {
-    background-color: aliceblue;
+    background-color: #eceff1;
+    color: #263238;
     border-radius: $baseline;
     text-align: center;
-}
 
-.welcome-nav {
     a {
         text-decoration: none;
+        color: #c51162;
 
         &:hover {
             text-decoration: underline;
+
+            svg {
+                fill: #607d8b;
+            }
         }
+    }
+
+    svg {
+        fill: #90a4ae;
     }
 }
