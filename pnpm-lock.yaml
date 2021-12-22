@@ -3,6 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   autoprefixer: ^10.4.0
   browser-sync: ^2.27.7
+  csstron: github:pattisahusiwa/csstron
   del: ^6.0.0
   gulp: ^4.0.2
   gulp-data: ^1.3.1
@@ -19,6 +20,7 @@ specifiers:
 devDependencies:
   autoprefixer: 10.4.0_postcss@8.4.5
   browser-sync: 2.27.7
+  csstron: github.com/pattisahusiwa/csstron/cf13007c01808128022a407169cbb66a8bdbb485
   del: 6.0.0
   gulp: 4.0.2
   gulp-data: 1.3.1
@@ -3907,4 +3909,10 @@ packages:
 
   /yeast/0.1.2:
     resolution: {integrity: sha1-AI4G2AlDIMNy28L47XagymyKxBk=}
+    dev: true
+
+  github.com/pattisahusiwa/csstron/cf13007c01808128022a407169cbb66a8bdbb485:
+    resolution: {commit: cf13007c01808128022a407169cbb66a8bdbb485, repo: git+ssh://git@github.com/pattisahusiwa/csstron.git, type: git}
+    name: csstron
+    version: 0.1.4
     dev: true

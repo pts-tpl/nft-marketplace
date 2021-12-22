@@ -1,0 +1,23 @@
+.welcome-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome {
+    background-color: aliceblue;
+    border-radius: $baseline;
+    text-align: center;
+}
+
+.welcome-nav {
+    a {
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
