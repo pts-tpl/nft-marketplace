@@ -1,0 +1,19 @@
+.main-wrapper {
+    min-height: 100vh;
+    position: relative;
+}
+
+.content-margin {
+    margin-left: $nav-width;
+    padding-left: $baseline;
+}
+
+.main-body {
+    flex: 1;
+}
+
+.text-gradient {
+    background: linear-gradient(103.85deg, #6763fd 5.47%, #f14ea8 96.28%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
