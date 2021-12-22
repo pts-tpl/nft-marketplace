@@ -32,9 +32,6 @@ jobs:
           key: ${{ secrets.CSSTRON_TOKEN }}
           known_hosts: "unknown"
 
-      - name: Adding Known Hosts
-        run: ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
-
       - run: pnpm install
       - run: pnpm run build
 
