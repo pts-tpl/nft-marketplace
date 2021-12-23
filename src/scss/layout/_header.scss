@@ -28,12 +28,13 @@
 }
 
 .eth {
-    display: none;
+    padding: 0.25 * $baseline 0.5 * $baseline;
+    border-radius: 0.25 * $baseline;
+    background-color: #262d3a;
+}
 
-    @include md-and-up {
-        background-color: #262d3a;
-        display: flex;
-        padding: 0.25 * $baseline 0.5 * $baseline;
-        border-radius: 0.25 * $baseline;
+.navbar-toggle {
+    .eth {
+        background-color: lighten($color: #262d3a, $amount: 10);
     }
 }
