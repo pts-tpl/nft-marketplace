@@ -1,0 +1,24 @@
+{
+    "artists": [
+        {
+            "full_name": "Brooklyn Simmons",
+            "username": "@brosim",
+            "avatar": "assets/avatar-5.jpg"
+        },
+        {
+            "full_name": "Jenny Wilson",
+            "username": "@jenny",
+            "avatar": "assets/avatar-2.jpg"
+        },
+        {
+            "full_name": "Theresa Webb",
+            "username": "@theresa",
+            "avatar": "assets/avatar-1.jpg"
+        },
+        {
+            "full_name": "Courtney Henry",
+            "username": "@courtney",
+            "avatar": "assets/avatar-4.jpg"
+        }
+    ]
+}

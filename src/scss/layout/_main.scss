@@ -9,7 +9,7 @@
     }
 }
 
-.main-body {
+.flex-1 {
     flex: 1;
 }
 
@@ -23,8 +23,20 @@
     color: white;
 }
 
+.text-muted {
+    color: #878787;
+}
+
 .link-plain {
     &:hover {
         text-decoration: none;
+    }
+}
+
+.link-white {
+    color: white;
+
+    &:hover {
+        color: white;
     }
 }

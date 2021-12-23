@@ -1,0 +1,26 @@
+.side-section {
+    background-color: #262d3a;
+
+    border-radius: $baseline;
+    min-height: 250px;
+}
+
+.artist {
+    & + & {
+        margin-top: $baseline;
+    }
+}
+
+.btn-follow {
+    @extend .h6;
+
+    background: linear-gradient(103.85deg, #6763fd 5.47%, #b84ef1 96.28%);
+    border-radius: 8px;
+    padding: 0.25 * $baseline 0.5 * $baseline;
+    color: white;
+
+    &:hover {
+        color: white;
+        text-decoration: none;
+    }
+}
