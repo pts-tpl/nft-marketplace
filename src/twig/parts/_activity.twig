@@ -8,8 +8,8 @@
         <img src="{{item.avatar}}" alt="">
       </figure>
       <div class="ml-0.5">
-        <p>{{item.name}} {% if item.unread %}<span class="ml-0.25 unread-mark"></span>{% endif %}</p>
-        <small class="text-muted">{{item.message}}</small>
+        <p class="h5">{{item.name}} {% if item.unread %}<span class="ml-0.25 unread-mark"></span>{% endif %}</p>
+        <small class="text-muted h6">{{item.message}}</small>
       </div>
     </li>
     {% endfor %}
