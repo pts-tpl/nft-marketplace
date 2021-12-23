@@ -1,13 +1,13 @@
-<section class="side-section p-1">
+<section class="side-section py-1 px-0.5 sm:px-1">
   <h2 class="h3">Top Artist</h2>
   <div class="mt-1">
 
     {% for item in artists %}
     <div class="artist d-flex align-items-center">
-      <figure class="avatar">
+      <figure class="avatar d-none lg:d-block">
         <img src="{{item.avatar}}" alt="">
       </figure>
-      <div class="flex-1 mx-0.5">
+      <div class="flex-1 mr-0.25 lg:ml-0.25">
         <a href="#" class="d-block link-white h5">{{item.full_name}}</a>
         <small class="h6 text-muted">{{item.username}}</small>
       </div>
