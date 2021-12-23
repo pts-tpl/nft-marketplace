@@ -1,6 +1,9 @@
 .main-header {
-    border-bottom: 1px solid #32343f;
     min-height: 65px;
+
+    border-bottom: 1px solid #32343f;
+    display: flex;
+    align-items: center;
 
     @include md-and-up {
         border-color: transparent;
