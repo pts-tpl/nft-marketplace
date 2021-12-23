@@ -11,17 +11,19 @@
     color: white;
     border: none;
     border-radius: 0.5 * $baseline;
-    padding: 0.5 * $baseline $baseline;
+    padding: 0.25 * $baseline $baseline;
     padding-left: 1.5 * $baseline;
     width: 100%;
     outline: none;
+    line-height: 1.5;
 }
 
 .btn-search {
     position: absolute;
-    left: 0.125 * $baseline;
+    left: 0.25 * $baseline;
     background-color: transparent;
     border: none;
     outline: none;
     cursor: pointer;
+    padding: 0;
 }
