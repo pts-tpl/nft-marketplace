@@ -68,5 +68,97 @@
             "name": "JBoyd Stoltenberg",
             "message": "Started following you"
         }
+    ],
+    "explore": [
+        {
+            "artworksUrl": "assets/explore-1.jpg",
+            "time": "50h:30m:20s",
+            "category": "Photography",
+            "currentBid": "540.0",
+            "name": "Bernice Upton",
+            "avatars": [
+                "assets/avatar-1.jpg",
+                "assets/avatar-2.jpg",
+                "assets/avatar-3.jpg",
+                "assets/avatar-4.jpg",
+                "assets/avatar-5.jpg"
+            ],
+            "bidCount": "56"
+        },
+        {
+            "artworksUrl": "assets/explore-2.jpg",
+            "time": "50h:30m:20s",
+            "category": "Art",
+            "currentBid": "540.0",
+            "name": "Glenn Cummings",
+            "avatars": [
+                "assets/avatar-3.jpg",
+                "assets/avatar-9.jpg",
+                "assets/avatar-5.jpg",
+                "assets/avatar-7.jpg",
+                "assets/avatar-12.jpg"
+            ],
+            "bidCount": "100+"
+        },
+        {
+            "artworksUrl": "assets/explore-3.jpg",
+            "time": "50h:30m:20s",
+            "category": "Music",
+            "currentBid": "540.0",
+            "name": "Everett Trantow",
+            "avatars": [
+                "assets/avatar-11.jpg",
+                "assets/avatar-6.jpg",
+                "assets/avatar-2.jpg",
+                "assets/avatar-8.jpg",
+                "assets/avatar-13.jpg"
+            ],
+            "bidCount": "33"
+        },
+        {
+            "artworksUrl": "assets/explore-4.jpg",
+            "time": "50h:30m:20s",
+            "category": "Games",
+            "currentBid": "540.0",
+            "name": "JBoyd Stoltenberg",
+            "avatars": [
+                "assets/avatar-8.jpg",
+                "assets/avatar-14.jpg",
+                "assets/avatar-3.jpg",
+                "assets/avatar-10.jpg",
+                "assets/avatar-9.jpg"
+            ],
+            "bidCount": "65"
+        },
+        {
+            "artworksUrl": "assets/explore-5.jpg",
+            "time": "50h:30m:20s",
+            "category": "Utility",
+            "currentBid": "540.0",
+            "name": "Monica Gaylord",
+            "avatars": [
+                "assets/avatar-1.jpg",
+                "assets/avatar-12.jpg",
+                "assets/avatar-3.jpg",
+                "assets/avatar-14.jpg",
+                "assets/avatar-5.jpg"
+            ],
+            "bidCount": "46"
+        },
+        {
+            "artworksUrl": "assets/explore-6.jpg",
+            "time": "50h:30m:20s",
+            "category": "Art",
+            "currentBid": "540.0",
+            "name": "Johnny Turcotte",
+            "avatars": [
+                "assets/avatar-11.jpg",
+                "assets/avatar-2.jpg",
+                "assets/avatar-13.jpg",
+                "assets/avatar-7.jpg",
+                "assets/avatar-6.jpg"
+            ],
+            "bidCount": "94"
+        }
     ]
 }

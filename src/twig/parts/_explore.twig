@@ -1,0 +1,41 @@
+<section class="mt-2">
+  <h2 class="h3">Explore</h2>
+  <nav class="mt-0.5">
+    <a href="#" class="explore-nav active">Live Auction</a>
+    <a href="#" class="explore-nav">Art</a>
+    <a href="#" class="explore-nav">Photography</a>
+    <a href="#" class="explore-nav">Games</a>
+    <a href="#" class="explore-nav">Music</a>
+    <a href="#" class="explore-nav">Utility</a>
+  </nav>
+  <div class="explore-grid mt-2">
+
+    {% for item in explore %}
+    <div class="md:c-6 lg:c-4 p-0.5">
+      <section class="explore-card p-0.5">
+        <div class="explore-body pb-1 mb-1">
+          <figure class="explore-thumb">
+            <img src="{{item.artworksUrl}}" alt="">
+            <p class="explore-time p-0.25 text-center h5">Ends in: {{item.time}}</p>
+            <a href="#" class="explore-cat">{{item.category}}</a>
+            <a href="#" class="explore-like">{% include "../icons/heart.svg" %}</a>
+          </figure>
+          <div class="h5 my-1 d-flex justify-content-between">
+            Current Bid : <span class="explore-bid">{{item.currentBid}} ETH</span>
+          </div>
+          <h3>{{item.name}}</h3>
+        </div>
+        <footer class="explore-footer d-flex">
+          {% for avatar in item.avatars %}
+          <figure class="avatar">
+            <img src="{{avatar}}" alt="">
+          </figure>
+          {% endfor %}
+          <div class="explore-like-count">{{item.bidCount}}</div>
+        </footer>
+      </section>
+    </div>
+    {% endfor %}
+
+  </div>
+</section>

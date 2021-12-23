@@ -1,0 +1,158 @@
+.explore-nav {
+    background-color: #262935;
+    color: white;
+    padding: 0.25 * $baseline $baseline;
+    border-radius: $baseline;
+    display: inline-block;
+    margin-top: 0.5 * $baseline;
+
+    &.active {
+        border: 2px solid #7b6fe5;
+        background-color: #5f616a;
+    }
+
+    &:hover {
+        color: white;
+        text-decoration: none;
+        background-color: lighten($color: #262935, $amount: 10);
+    }
+}
+
+.explore-grid {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+
+    &::-webkit-scrollbar {
+        width: $baseline;
+        height: 0.5 * $baseline;
+        background-color: #262935;
+    }
+
+    &::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px #5f616a;
+        border-radius: $baseline;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: linear-gradient(103.85deg, #6763fd 5.47%, #b84ef1 96.28%);
+        border-radius: $baseline;
+    }
+
+    @include md-and-up {
+        flex-wrap: wrap;
+        overflow-x: auto;
+    }
+}
+
+.explore-card {
+    background-color: #262d3a;
+    border-radius: 0.5 * $baseline;
+    overflow: hidden;
+
+    min-width: 291px;
+
+    @include md-and-up {
+        min-width: auto;
+    }
+}
+
+.explore-body {
+    border-bottom: 1px solid #3c424e;
+}
+
+.explore-thumb {
+    position: relative;
+    padding-top: (9/16) * 100%;
+    border-radius: 0.5 * $baseline;
+    overflow: hidden;
+
+    & > img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.explore-time {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba($color: #262d3a, $alpha: 0.8);
+}
+
+.explore-cat {
+    position: absolute;
+    z-index: 1;
+    top: 0.5 * $baseline;
+    left: 0.5 * $baseline;
+    background-color: rgba($color: #c4c4c4, $alpha: 0.2);
+    color: white;
+    padding: 0.25 * $baseline 0.5 * $baseline;
+    border-radius: $baseline;
+    font-weight: $bold;
+
+    &:hover {
+        color: white;
+        text-decoration: none;
+        background-color: rgba($color: #c4c4c4, $alpha: 0.4);
+    }
+}
+
+.explore-like {
+    position: absolute;
+    z-index: 1;
+    top: 0.5 * $baseline;
+    right: 0.5 * $baseline;
+    background-color: rgba($color: #c4c4c4, $alpha: 0.2);
+    padding: 0.25 * $baseline;
+    line-height: 0;
+    border-radius: 50%;
+
+    &:hover {
+        background-color: rgba($color: #c4c4c4, $alpha: 0.4);
+    }
+}
+
+.explore-footer {
+    & > .avatar {
+        margin-left: -0.5 * $baseline;
+        min-width: 36px;
+        max-width: 36px;
+        min-height: 36px;
+        max-height: 36px;
+        border: 2px solid $body-bg;
+
+        &:first-child {
+            margin-left: 0;
+        }
+
+        &:nth-child(3) {
+            z-index: 3;
+        }
+    }
+}
+
+.explore-like-count {
+    position: relative;
+    z-index: 2;
+    margin-left: -0.5 * $baseline;
+    background-color: #b84ef1;
+    border-radius: 50%;
+    line-height: 0;
+    width: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.explore-bid {
+    color: #6763fd;
+    font-weight: $bold;
+}
