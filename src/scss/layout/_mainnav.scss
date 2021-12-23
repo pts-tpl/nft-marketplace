@@ -1,54 +1,88 @@
 $_nav-bg: #262d3a;
 
+.nav-close {
+    cursor: pointer;
+    @include md-and-up {
+        display: none;
+    }
+}
+
+.navbar-toggle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: $_nav-bg;
+
+    @include sm-and-up {
+        width: auto;
+        max-width: $nav-max-width;
+    }
+
+    @include md-and-up {
+        min-width: $nav-width;
+
+        &:hover {
+            min-width: $nav-max-width;
+
+            .brand-text {
+                display: inline-block;
+            }
+
+            .nav-link {
+                justify-content: flex-start;
+                padding-left: $baseline;
+            }
+
+            .nav-text {
+                display: inline-block;
+                color: $body-fg;
+            }
+        }
+    }
+}
+
 .brand {
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 0.75 * $baseline 0;
-    margin-bottom: $baseline;
     border-bottom: 1px solid #3c424e;
+}
 
-    font-size: 1.125rem;
+.brand-icon {
+    @at-root a#{&} {
+        text-decoration: none;
+    }
+
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
 }
 
 .brand-text {
-    display: none;
+    @include md-and-up {
+        display: none;
+    }
 }
 
-.mainnav-wrapper {
-    background-color: $_nav-bg;
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    min-width: $nav-width;
-
-    &:hover {
-        min-width: 250px;
-
-        .nav-link {
-            justify-content: flex-start;
-            padding-left: $baseline;
-        }
-
-        .nav-text {
-            display: inline-block;
-            color: $body-fg;
-        }
-
-        .brand-text {
-            display: inline-block;
-        }
-    }
+.mainnav {
+    display: flex;
+    flex-direction: column;
 }
 
 .nav-link {
     display: flex;
     align-items: center;
-    justify-content: center;
+    border-left: 4px solid transparent;
     padding-top: $baseline;
     padding-bottom: $baseline;
-    border-left: 4px solid transparent;
+    padding-left: $baseline;
+
+    @include md-and-up {
+        padding-left: 0;
+        justify-content: center;
+    }
 
     &:hover {
         background-color: lighten($color: $_nav-bg, $amount: 3);
@@ -62,5 +96,10 @@ $_nav-bg: #262d3a;
 }
 
 .nav-text {
-    display: none;
+    display: inline-block;
+    color: $body-fg;
+
+    @include md-and-up {
+        display: none;
+    }
 }

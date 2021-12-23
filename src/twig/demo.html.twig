@@ -13,9 +13,13 @@
   </head>
 
   <body>
-    <div class="main-wrapper d-flex flex-column">
-      {% include "layout/_header.twig" %}
-      {% include "layout/_body.twig" %}
+    <div class="main-wrapper d-flex flex-column md:expand-nav">
+
+      <header class="main-header content-margin p-0.5">
+        <label for="navcheck" class="bar-icon px-0.25 md:px-1"></label>
+      </header>
+      <main class="content-margin">
+      </main>
       {% include "layout/_nav.twig" %}
     </div>
   </body>

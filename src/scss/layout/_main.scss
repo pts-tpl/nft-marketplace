@@ -4,8 +4,9 @@
 }
 
 .content-margin {
-    margin-left: $nav-width;
-    padding-left: $baseline;
+    @include md-and-up {
+        padding-left: $nav-width;
+    }
 }
 
 .main-body {
