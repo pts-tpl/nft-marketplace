@@ -1,15 +1,24 @@
 .banner {
     position: relative;
-    background: linear-gradient(103.85deg, #6763fd 5.47%, #b84ef1 96.28%);
     border-radius: 20px;
     overflow: hidden;
-    // min-height: 320px;
 
+    &::before,
     &::after {
         content: "";
         position: absolute;
         right: 0;
         bottom: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+
+    &::before {
+        background: linear-gradient(103.85deg, #6763fd 5.47%, #b84ef1 96.28%);
+    }
+
+    &::after {
         width: 276px;
         height: 261px;
         background: url(banner-bg.png);
