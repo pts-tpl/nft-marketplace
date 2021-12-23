@@ -20,5 +20,53 @@
             "username": "@courtney",
             "avatar": "assets/avatar-4.jpg"
         }
+    ],
+    "activities": [
+        {
+            "unread": true,
+            "avatar": "assets/avatar-6.jpg",
+            "name": "Water Bender",
+            "message": "Purchased by you for 0,5 ETH"
+        },
+        {
+            "avatar": "assets/avatar-13.jpg",
+            "name": "Johnny Turcotte",
+            "message": "0.13 ETH received by you"
+        },
+        {
+            "avatar": "assets/avatar-7.jpg",
+            "name": "Everett Trantow",
+            "message": "Liked your post “Water Bender”"
+        },
+        {
+            "avatar": "assets/avatar-9.jpg",
+            "name": "Glenn Cummings",
+            "message": "Started following you"
+        },
+        {
+            "avatar": "assets/avatar-8.jpg",
+            "name": "Julie Braun",
+            "message": "Started following you"
+        },
+        {
+            "avatar": "assets/avatar-10.jpg",
+            "name": "Tyler Boyer",
+            "message": "Started following you"
+        },
+        {
+            "avatar": "assets/avatar-11.jpg",
+            "name": "Monica Gaylord",
+            "message": "Started following you"
+        },
+        {
+            "avatar": "assets/avatar-12.jpg",
+            "name": "Bernice Upton",
+            "message": "Started following you"
+        },
+        {
+            "avatar": "assets/avatar-14.jpg",
+            "name": "JBoyd Stoltenberg",
+            "message": "Started following you"
+        }
     ]
 }

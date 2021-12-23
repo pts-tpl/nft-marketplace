@@ -1,3 +1,17 @@
-<section class="side-section mt-2 p-1">
+<section class="side-section p-1">
   <h2 class="h3">Recent Activity</h2>
+
+  <ul class="list-plain mt-1">
+    {% for item in activities %}
+    <li class="activity-item {% if item.unread %}unread{% endif %}">
+      <figure class="avatar">
+        <img src="{{item.avatar}}" alt="">
+      </figure>
+      <div class="ml-0.5">
+        <p>{{item.name}} {% if item.unread %}<span class="ml-0.25 unread-mark"></span>{% endif %}</p>
+        <small class="text-muted">{{item.message}}</small>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
 </section>

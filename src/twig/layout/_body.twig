@@ -2,8 +2,12 @@
   <div class="lg:c-7 px-1 lg:pr-0.5">
     {% include "../parts/_banner.twig" %}
   </div>
-  <aside class="lg:c-3 px-1 lg:pl-0.5">
-    {% include "../parts/_artist.twig" %}
-    {% include "../parts/_activity.twig" %}
+  <aside class="grid lg:c-3 px-1 lg:pl-0.5 mt-2 lg:mt-0">
+    <div class="md:c-6 lg:c-12 md:pr-0.5 lg:pr-0">
+      {% include "../parts/_artist.twig" %}
+    </div>
+    <div class="md:c-6 lg:c-12 md:pl-0.5 lg:pl-0 mt-2 md:mt-0 lg:mt-2">
+      {% include "../parts/_activity.twig" %}
+    </div>
   </aside>
 </main>

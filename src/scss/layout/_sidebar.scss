@@ -1,13 +1,11 @@
 .side-section {
     background-color: #262d3a;
-
     border-radius: $baseline;
-    min-height: 250px;
 }
 
 .artist {
     & + & {
-        margin-top: $baseline;
+        margin-top: 0.5 * $baseline;
     }
 }
 
@@ -22,5 +20,45 @@
     &:hover {
         color: white;
         text-decoration: none;
+    }
+}
+
+.list-plain {
+    list-style: none;
+    margin-left: 0;
+    padding: 0;
+
+    & > li {
+        & + li {
+            margin-top: 0.5 * $baseline;
+        }
+    }
+}
+
+.activity-item {
+    display: flex;
+    padding: 0.25 * $baseline 0.5 * $baseline;
+    border-radius: 0.5 * $baseline;
+
+    &.unread {
+        background-color: #33314d;
+    }
+
+    &:hover {
+        background-color: #313744;
+    }
+}
+
+.unread-mark {
+    position: relative;
+    &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: calc(50% - 4.5px);
+        width: 9px;
+        height: 9px;
+        background-color: #6763fd;
+        border-radius: 50%;
     }
 }
