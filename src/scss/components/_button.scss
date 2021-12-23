@@ -1,0 +1,8 @@
+.btn {
+    @at-root a#{&} {
+        text-decoration: none;
+        color: $body-fg;
+    }
+
+    display: inline-block;
+}

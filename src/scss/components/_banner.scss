@@ -1,0 +1,38 @@
+.banner {
+    position: relative;
+    background: linear-gradient(103.85deg, #6763fd 5.47%, #b84ef1 96.28%);
+    border-radius: 20px;
+    overflow: hidden;
+    // min-height: 320px;
+
+    &::after {
+        content: "";
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 276px;
+        height: 261px;
+        background: url(banner-bg.png);
+    }
+}
+
+.banner-title {
+    @include fontSize($h1-size);
+}
+
+.banner-desc {
+    @include fontSize(1.125rem);
+}
+
+.banner-btn {
+    @include fontSize($h5-size);
+
+    background-color: white;
+    border-radius: 0.5 * $baseline;
+    padding: 0.5 * $baseline $baseline;
+    font-weight: $bold;
+
+    &:hover {
+        background-color: darken($color: aliceblue, $amount: 3);
+    }
+}
