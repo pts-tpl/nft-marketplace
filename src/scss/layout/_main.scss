@@ -18,3 +18,13 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.text-light {
+    color: white;
+}
+
+.link-plain {
+    &:hover {
+        text-decoration: none;
+    }
+}
