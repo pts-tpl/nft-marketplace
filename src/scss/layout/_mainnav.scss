@@ -16,15 +16,17 @@ $_nav-bg: #262d3a;
     background-color: $_nav-bg;
 
     @include sm-and-up {
+        z-index: 1000;
         width: $nav-max-width;
+        box-shadow: 8px 0 16px rgba(#000, 0.5);
     }
 
     @include md-and-up {
-        width: auto;
-        min-width: $nav-width;
+        width: $nav-width;
+        transition: all 0.25s ease;
 
         &:hover {
-            min-width: $nav-max-width;
+            width: $nav-max-width;
 
             .brand-text {
                 display: inline-block;
@@ -38,6 +40,7 @@ $_nav-bg: #262d3a;
             .nav-text {
                 display: inline-block;
                 color: $body-fg;
+                white-space: nowrap;
             }
         }
     }
