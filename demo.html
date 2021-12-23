@@ -13,7 +13,712 @@
   </head>
 
   <body>
-    Demo file
+    <div class="main-wrapper d-flex flex-column md:expand-nav">
+      <header class="main-header content-margin">
+  <label for="navcheck" class="bar-icon px-0.25"></label>
+  <form method="get" class="search-form mx-0.5 md:ml-1">
+    <input type="text" name="q" class="search-input" placeholder="Search" autocomplete="off" required>
+    <button type="submit" class="btn-search">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M21 21L16.514 16.506L21 21ZM19 10.5C19 12.7543 18.1045 14.9163 16.5104 16.5104C14.9163 18.1045 12.7543 19 10.5 19C8.24566 19 6.08365 18.1045 4.48959 16.5104C2.89553 14.9163 2 12.7543 2 10.5C2 8.24566 2.89553 6.08365 4.48959 4.48959C6.08365 2.89553 8.24566 2 10.5 2C12.7543 2 14.9163 2.89553 16.5104 4.48959C18.1045 6.08365 19 8.24566 19 10.5V10.5Z" stroke="url(#paint0_linear_2_2079)" stroke-width="2" stroke-linecap="round"/>
+<defs>
+<linearGradient id="paint0_linear_2_2079" x1="11.5" y1="2" x2="11.5" y2="21" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6763FD"/>
+<stop offset="1" stop-color="#B84EF1"/>
+</linearGradient>
+</defs>
+</svg>
+    </button>
+  </form>
+  <div class="h5 eth mx-0.25 d-none md:d-flex">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2_17)">
+<path d="M12.1421 15.5758C12.0606 15.6146 11.9659 15.6146 11.8844 15.5758L6.30255 12.9204C6.03717 12.7942 5.76733 13.0852 5.91329 13.3403L11.7528 23.5454C11.8681 23.7467 12.1584 23.7467 12.2736 23.5454L18.1133 13.3403C18.2593 13.0852 17.9895 12.7942 17.7241 12.9204L12.1421 15.5758ZM9.37565 16.55C9.22969 16.2949 9.49953 16.0038 9.76491 16.1301L11.8844 17.1384C11.9659 17.1772 12.0606 17.1772 12.1421 17.1384L14.2617 16.1301C14.5271 16.0038 14.7969 16.2949 14.651 16.55L12.2736 20.7043C12.1584 20.9057 11.8681 20.9057 11.7529 20.7043L9.37565 16.55Z" fill="url(#paint0_linear_2_17)"/>
+<path d="M18.1722 11.13C18.2778 11.08 18.3182 10.9506 18.26 10.8494L12.1865 0.301036C12.1096 0.167427 11.9168 0.167429 11.8399 0.301039L5.76665 10.8494C5.7084 10.9506 5.74884 11.08 5.85436 11.13L11.9276 14.0067C11.9818 14.0324 12.0446 14.0324 12.0988 14.0067L18.1722 11.13ZM11.8399 3.12892C11.9168 2.99531 12.1096 2.99531 12.1865 3.12892L15.3186 8.56867C15.4164 8.73855 15.2368 8.93312 15.0597 8.84921L12.0988 7.4468C12.0446 7.42113 11.9818 7.42113 11.9276 7.4468L8.96695 8.8492C8.78979 8.93312 8.6102 8.73854 8.70801 8.56866L11.8399 3.12892ZM11.9276 9.00815C11.9818 8.98248 12.0446 8.98248 12.0988 9.00815L15.3456 10.5461C15.4981 10.6184 15.4981 10.8354 15.3455 10.9076L12.0988 12.4454C12.0446 12.4711 11.9818 12.4711 11.9276 12.4454L8.68104 10.9076C8.52853 10.8354 8.52853 10.6184 8.68103 10.5461L11.9276 9.00815Z" fill="url(#paint1_linear_2_17)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_2_17" x1="6.1178" y1="13.275" x2="19.9072" y2="17.1657" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6763FD"/>
+<stop offset="1" stop-color="#B84EF1"/>
+</linearGradient>
+<linearGradient id="paint1_linear_2_17" x1="6.31593" y1="0.936487" x2="20.0208" y2="3.99347" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6763FD"/>
+<stop offset="1" stop-color="#B84EF1"/>
+</linearGradient>
+<clipPath id="clip0_2_17">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+    <span>543,694,489 ETH</span>
+  </div>
+  <a href="#" class="btn-menu mx-0.25"><svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M17.78 0.5H2.22C1.63176 0.501745 1.06812 0.734377 0.652166 1.14709C0.236215 1.5598 0.00175858 2.11906 0 2.70272V12.8432C-2.64169e-06 13.428 0.233676 13.9889 0.649817 14.4031C1.06596 14.8172 1.63061 15.0508 2.22 15.0525H4L5.28 17.0369C5.36923 17.1797 5.49398 17.2973 5.64226 17.3784C5.79054 17.4595 5.95736 17.5014 6.12667 17.5C6.2985 17.4979 6.46697 17.4525 6.61625 17.368C6.76553 17.2835 6.8907 17.1628 6.98 17.0171L8.19333 15.0327H17.78C18.3659 15.0309 18.9276 14.8001 19.3432 14.3903C19.7587 13.9804 19.9947 13.4245 20 12.8432V2.70272C19.9982 2.11906 19.7638 1.5598 19.3478 1.14709C18.9319 0.734377 18.3682 0.501745 17.78 0.5ZM18.6667 12.8432C18.6667 13.0771 18.5735 13.3016 18.4074 13.4676C18.2413 13.6336 18.0158 13.7278 17.78 13.7295H8.08667C7.90162 13.7301 7.71982 13.7779 7.55872 13.8682C7.39762 13.9586 7.26262 14.0885 7.16667 14.2455L6.14667 15.9124L5.07333 14.2323C4.97731 14.0778 4.84287 13.9504 4.68292 13.8624C4.52298 13.7744 4.3429 13.7286 4.16 13.7295H2.22C1.98423 13.7278 1.75872 13.6336 1.59262 13.4676C1.42653 13.3016 1.33333 13.0771 1.33333 12.8432V2.70272C1.33508 2.46993 1.42905 2.24716 1.59496 2.08254C1.76087 1.91793 1.98538 1.82469 2.22 1.82295H17.78C18.0146 1.82469 18.2391 1.91793 18.405 2.08254C18.5709 2.24716 18.6649 2.46993 18.6667 2.70272V12.8432Z" fill="url(#paint0_linear_1419_2)"/>
+<path d="M13.3333 5.18298H6.66667C6.48986 5.18298 6.32029 5.25267 6.19526 5.37673C6.07024 5.50078 6 5.66903 6 5.84446C6 6.0199 6.07024 6.18815 6.19526 6.3122C6.32029 6.43625 6.48986 6.50594 6.66667 6.50594H13.3333C13.5101 6.50594 13.6797 6.43625 13.8047 6.3122C13.9298 6.18815 14 6.0199 14 5.84446C14 5.66903 13.9298 5.50078 13.8047 5.37673C13.6797 5.25267 13.5101 5.18298 13.3333 5.18298Z" fill="url(#paint1_linear_1419_2)"/>
+<path d="M13.3333 8.8476H6.66667C6.48986 8.8476 6.32029 8.91729 6.19526 9.04134C6.07024 9.16539 6 9.33364 6 9.50907C6 9.68451 6.07024 9.85276 6.19526 9.97681C6.32029 10.1009 6.48986 10.1706 6.66667 10.1706H13.3333C13.5101 10.1706 13.6797 10.1009 13.8047 9.97681C13.9298 9.85276 14 9.68451 14 9.50907C14 9.33364 13.9298 9.16539 13.8047 9.04134C13.6797 8.91729 13.5101 8.8476 13.3333 8.8476Z" fill="url(#paint2_linear_1419_2)"/>
+<defs>
+<linearGradient id="paint0_linear_1419_2" x1="1.03448" y1="1.63333" x2="21.9171" y2="7.69018" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6763FD"/>
+<stop offset="1" stop-color="#B84EF1"/>
+</linearGradient>
+<linearGradient id="paint1_linear_1419_2" x1="6.41379" y1="5.27118" x2="9.22393" y2="9.46058" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6763FD"/>
+<stop offset="1" stop-color="#B84EF1"/>
+</linearGradient>
+<linearGradient id="paint2_linear_1419_2" x1="6.41379" y1="8.93579" x2="9.22392" y2="13.1252" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6763FD"/>
+<stop offset="1" stop-color="#B84EF1"/>
+</linearGradient>
+</defs>
+</svg>
+</a>
+  <a href="#" class="btn-menu mx-0.25"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 4.5C11.586 4.5 11.25 4.164 11.25 3.75V3C11.25 2.586 11.586 2.25 12 2.25C12.414 2.25 12.75 2.586 12.75 3V3.75C12.75 4.164 12.414 4.5 12 4.5Z" fill="url(#paint0_linear_2_24)"/>
+<path d="M18.5452 11.0457C18.1313 11.0457 17.7952 10.7097 17.7952 10.2957C17.7952 7.2477 15.3203 4.65045 12.2783 4.50645C9.2325 4.36582 6.51713 6.71145 6.23025 9.74182C6.213 9.92295 6.20438 10.1089 6.20438 10.2957C6.20438 10.7097 5.86838 11.0457 5.45438 11.0457C5.04038 11.0457 4.70438 10.7097 4.70438 10.2957C4.70438 10.0617 4.71525 9.8277 4.737 9.60045C5.09813 5.78445 8.517 2.82795 12.3491 3.00832C16.1794 3.18945 19.2952 6.4587 19.2952 10.2957C19.2952 10.7101 18.9592 11.0457 18.5452 11.0457Z" fill="url(#paint1_linear_2_24)"/>
+<path d="M19.9511 16.1613C19.7662 16.1613 19.5806 16.0931 19.4355 15.9562C18.393 14.9692 17.7949 13.5794 17.7949 12.1436C17.7949 11.7296 18.1309 11.3936 18.5449 11.3936C18.9589 11.3936 19.2949 11.7296 19.2949 12.1436C19.2949 13.1692 19.722 14.1622 20.4667 14.8668C20.7675 15.1514 20.7806 15.6262 20.496 15.9273C20.3486 16.0826 20.1499 16.1613 19.9511 16.1613Z" fill="url(#paint2_linear_2_24)"/>
+<path d="M4.04809 16.1613C3.84896 16.1613 3.65059 16.0829 3.50321 15.9269C3.21859 15.6262 3.23171 15.1514 3.53246 14.8668C4.27721 14.1622 4.70434 13.1696 4.70434 12.1436C4.70434 11.7296 5.04034 11.3936 5.45434 11.3936C5.86834 11.3936 6.20434 11.7296 6.20434 12.1436C6.20434 13.5802 5.60622 14.9699 4.56371 15.9562C4.41821 16.0931 4.23296 16.1613 4.04809 16.1613Z" fill="url(#paint3_linear_2_24)"/>
+<path d="M12 21.75C9.9675 21.75 8.25 20.0325 8.25 18C8.25 17.586 8.586 17.25 9 17.25C9.414 17.25 9.75 17.586 9.75 18C9.75 19.2195 10.7805 20.25 12 20.25C13.2195 20.25 14.25 19.2195 14.25 18C14.25 17.586 14.586 17.25 15 17.25C15.414 17.25 15.75 17.586 15.75 18C15.75 20.0325 14.0325 21.75 12 21.75Z" fill="url(#paint4_linear_2_24)"/>
+<path d="M5.07896 18.7504C4.16509 18.7504 3.35209 18.1916 3.00746 17.3269C2.66246 16.461 2.86834 15.4954 3.53209 14.8669C3.83284 14.5819 4.30721 14.595 4.59259 14.8958C4.87721 15.1965 4.86446 15.6713 4.56371 15.9563C4.23521 16.2675 4.35596 16.6594 4.40096 16.7719C4.44559 16.8836 4.62671 17.2504 5.07896 17.2504C5.49296 17.2504 5.82896 17.5864 5.82896 18.0004C5.82896 18.4144 5.49334 18.7504 5.07896 18.7504Z" fill="url(#paint5_linear_2_24)"/>
+<path d="M18.9203 18.7501C18.5063 18.7501 18.1703 18.4141 18.1703 18.0001C18.1703 17.5861 18.5063 17.2501 18.9203 17.2501C19.3729 17.2501 19.5544 16.8818 19.5994 16.7689C19.644 16.6568 19.7644 16.2664 19.4359 15.9556C19.1352 15.6706 19.122 15.1962 19.4067 14.8951C19.6917 14.5943 20.166 14.5812 20.4672 14.8658C21.1309 15.4943 21.3372 16.4592 20.9929 17.3236C20.6479 18.1902 19.8342 18.7501 18.9203 18.7501Z" fill="url(#paint6_linear_2_24)"/>
+<path d="M5.45395 12.8932C5.03995 12.8932 4.70395 12.5572 4.70395 12.1432V10.296C4.70395 9.88196 5.03995 9.54596 5.45395 9.54596C5.86795 9.54596 6.20396 9.88196 6.20396 10.296V12.1432C6.20396 12.5572 5.86833 12.8932 5.45395 12.8932Z" fill="url(#paint7_linear_2_24)"/>
+<path d="M18.5453 9.54638C18.1313 9.54638 17.7953 9.88238 17.7953 10.2964V12.1436C17.7953 12.5576 18.1313 12.8936 18.5453 12.8936C18.9593 12.8936 19.2953 12.5576 19.2953 12.1436V10.2964C19.2953 9.88238 18.9593 9.54638 18.5453 9.54638Z" fill="url(#paint8_linear_2_24)"/>
+<path d="M18.9202 18.75H5.07895C4.66495 18.75 4.32895 18.414 4.32895 18C4.32895 17.586 4.66495 17.25 5.07895 17.25H18.9198C19.3338 17.25 19.6698 17.586 19.6698 18C19.6698 18.414 19.3342 18.75 18.9202 18.75Z" fill="url(#paint9_linear_2_24)"/>
+<defs>
+<linearGradient id="paint0_linear_2_24" x1="11.3276" y1="2.4" x2="12.9809" y2="2.67173" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6763FD"/>
+<stop offset="1" stop-color="#B84EF1"/>
+</linearGradient>
+<linearGradient id="paint1_linear_2_24" x1="5.45908" y1="3.53684" x2="19.2237" y2="9.69128" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6763FD"/>
+<stop offset="1" stop-color="#B84EF1"/>
+</linearGradient>
+<linearGradient id="paint2_linear_2_24" x1="17.9452" y1="11.7114" x2="21.1624" y2="12.1949" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6763FD"/>
+<stop offset="1" stop-color="#B84EF1"/>
+</linearGradient>
+<linearGradient id="paint3_linear_2_24" x1="3.44836" y1="11.7114" x2="6.66555" y2="12.1949" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6763FD"/>
+<stop offset="1" stop-color="#B84EF1"/>
+</linearGradient>
+<linearGradient id="paint4_linear_2_24" x1="8.63793" y1="17.55" x2="15.9014" y2="20.5345" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6763FD"/>
+<stop offset="1" stop-color="#B84EF1"/>
+</linearGradient>
+<linearGradient id="paint5_linear_2_24" x1="2.99691" y1="14.934" x2="6.2714" y2="15.5236" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6763FD"/>
+<stop offset="1" stop-color="#B84EF1"/>
+</linearGradient>
+<linearGradient id="paint6_linear_2_24" x1="18.3248" y1="14.9333" x2="21.5998" y2="15.523" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6763FD"/>
+<stop offset="1" stop-color="#B84EF1"/>
+</linearGradient>
+<linearGradient id="paint7_linear_2_24" x1="4.78154" y1="9.76911" x2="6.45902" y2="9.95444" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6763FD"/>
+<stop offset="1" stop-color="#B84EF1"/>
+</linearGradient>
+<linearGradient id="paint8_linear_2_24" x1="17.8729" y1="12.6705" x2="19.5504" y2="12.4851" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6763FD"/>
+<stop offset="1" stop-color="#B84EF1"/>
+</linearGradient>
+<linearGradient id="paint9_linear_2_24" x1="5.12244" y1="17.35" x2="7.48272" y2="23.3012" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6763FD"/>
+<stop offset="1" stop-color="#B84EF1"/>
+</linearGradient>
+</defs>
+</svg>
+</a>
+  <a href="#" class="link-white text-light d-inline-flex align-items-center mx-0.5 md:mr-1">
+    <figure class="avatar">
+      <img src="assets/avatar-3.jpg" alt="">
+    </figure>
+    <span class="avatar-menu-text h5 ml-0.25">Marvin McKinney</span>
+  </a>
+</header>
+      <main class="content-margin grid mt-2">
+  <div class="lg:c-9 px-1 lg:pr-0.5">
+    <section class="banner px-1 py-2">
+  <h2 class="banner-title">One Stop NFT Marketplace</h2>
+  <p class="banner-desc mt-0.5">Discover limited-edition digital artwork<br />Create, Sell, and Collect yours now!</p>
+  <footer class="mt-2">
+    <a href="#" class="btn banner-btn">
+      <span class="text-gradient">Start create</span>
+    </a>
+    <a href="#" class="btn banner-btn mt-0.5">
+      <span class="text-gradient">How it works</span>
+    </a>
+  </footer>
+</section>
+    <section class="mt-2">
+  <h2 class="h3">Explore</h2>
+  <nav class="mt-0.5">
+    <a href="#" class="explore-nav active">Live Auction</a>
+    <a href="#" class="explore-nav">Art</a>
+    <a href="#" class="explore-nav">Photography</a>
+    <a href="#" class="explore-nav">Games</a>
+    <a href="#" class="explore-nav">Music</a>
+    <a href="#" class="explore-nav">Utility</a>
+  </nav>
+  <div class="explore-grid mt-2">
+
+        <div class="md:c-6 lg:c-4 p-0.5">
+      <section class="explore-card p-0.5">
+        <div class="explore-body pb-1 mb-1">
+          <figure class="explore-thumb">
+            <img src="assets/explore-1.jpg" alt="">
+            <p class="explore-time p-0.25 text-center h5">Ends in: 50h:30m:20s</p>
+            <a href="#" class="explore-cat">Photography</a>
+            <a href="#" class="explore-like"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M7 3C4.239 3 2 5.216 2 7.95C2 10.157 2.875 15.395 11.488 20.69C11.6423 20.7839 11.8194 20.8335 12 20.8335C12.1806 20.8335 12.3577 20.7839 12.512 20.69C21.125 15.395 22 10.157 22 7.95C22 5.216 19.761 3 17 3C14.239 3 12 6 12 6C12 6 9.761 3 7 3Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+          </figure>
+          <div class="h5 my-1 d-flex justify-content-between">
+            Current Bid : <span class="explore-bid">540.0 ETH</span>
+          </div>
+          <h3>Bernice Upton</h3>
+        </div>
+        <footer class="explore-footer d-flex">
+                    <figure class="avatar">
+            <img src="assets/avatar-1.jpg" alt="">
+          </figure>
+                    <figure class="avatar">
+            <img src="assets/avatar-2.jpg" alt="">
+          </figure>
+                    <figure class="avatar">
+            <img src="assets/avatar-3.jpg" alt="">
+          </figure>
+                    <figure class="avatar">
+            <img src="assets/avatar-4.jpg" alt="">
+          </figure>
+                    <figure class="avatar">
+            <img src="assets/avatar-5.jpg" alt="">
+          </figure>
+                    <div class="explore-like-count">56</div>
+        </footer>
+      </section>
+    </div>
+        <div class="md:c-6 lg:c-4 p-0.5">
+      <section class="explore-card p-0.5">
+        <div class="explore-body pb-1 mb-1">
+          <figure class="explore-thumb">
+            <img src="assets/explore-2.jpg" alt="">
+            <p class="explore-time p-0.25 text-center h5">Ends in: 50h:30m:20s</p>
+            <a href="#" class="explore-cat">Art</a>
+            <a href="#" class="explore-like"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M7 3C4.239 3 2 5.216 2 7.95C2 10.157 2.875 15.395 11.488 20.69C11.6423 20.7839 11.8194 20.8335 12 20.8335C12.1806 20.8335 12.3577 20.7839 12.512 20.69C21.125 15.395 22 10.157 22 7.95C22 5.216 19.761 3 17 3C14.239 3 12 6 12 6C12 6 9.761 3 7 3Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+          </figure>
+          <div class="h5 my-1 d-flex justify-content-between">
+            Current Bid : <span class="explore-bid">540.0 ETH</span>
+          </div>
+          <h3>Glenn Cummings</h3>
+        </div>
+        <footer class="explore-footer d-flex">
+                    <figure class="avatar">
+            <img src="assets/avatar-3.jpg" alt="">
+          </figure>
+                    <figure class="avatar">
+            <img src="assets/avatar-9.jpg" alt="">
+          </figure>
+                    <figure class="avatar">
+            <img src="assets/avatar-5.jpg" alt="">
+          </figure>
+                    <figure class="avatar">
+            <img src="assets/avatar-7.jpg" alt="">
+          </figure>
+                    <figure class="avatar">
+            <img src="assets/avatar-12.jpg" alt="">
+          </figure>
+                    <div class="explore-like-count">100+</div>
+        </footer>
+      </section>
+    </div>
+        <div class="md:c-6 lg:c-4 p-0.5">
+      <section class="explore-card p-0.5">
+        <div class="explore-body pb-1 mb-1">
+          <figure class="explore-thumb">
+            <img src="assets/explore-3.jpg" alt="">
+            <p class="explore-time p-0.25 text-center h5">Ends in: 50h:30m:20s</p>
+            <a href="#" class="explore-cat">Music</a>
+            <a href="#" class="explore-like"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M7 3C4.239 3 2 5.216 2 7.95C2 10.157 2.875 15.395 11.488 20.69C11.6423 20.7839 11.8194 20.8335 12 20.8335C12.1806 20.8335 12.3577 20.7839 12.512 20.69C21.125 15.395 22 10.157 22 7.95C22 5.216 19.761 3 17 3C14.239 3 12 6 12 6C12 6 9.761 3 7 3Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+          </figure>
+          <div class="h5 my-1 d-flex justify-content-between">
+            Current Bid : <span class="explore-bid">540.0 ETH</span>
+          </div>
+          <h3>Everett Trantow</h3>
+        </div>
+        <footer class="explore-footer d-flex">
+                    <figure class="avatar">
+            <img src="assets/avatar-11.jpg" alt="">
+          </figure>
+                    <figure class="avatar">
+            <img src="assets/avatar-6.jpg" alt="">
+          </figure>
+                    <figure class="avatar">
+            <img src="assets/avatar-2.jpg" alt="">
+          </figure>
+                    <figure class="avatar">
+            <img src="assets/avatar-8.jpg" alt="">
+          </figure>
+                    <figure class="avatar">
+            <img src="assets/avatar-13.jpg" alt="">
+          </figure>
+                    <div class="explore-like-count">33</div>
+        </footer>
+      </section>
+    </div>
+        <div class="md:c-6 lg:c-4 p-0.5">
+      <section class="explore-card p-0.5">
+        <div class="explore-body pb-1 mb-1">
+          <figure class="explore-thumb">
+            <img src="assets/explore-4.jpg" alt="">
+            <p class="explore-time p-0.25 text-center h5">Ends in: 50h:30m:20s</p>
+            <a href="#" class="explore-cat">Games</a>
+            <a href="#" class="explore-like"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M7 3C4.239 3 2 5.216 2 7.95C2 10.157 2.875 15.395 11.488 20.69C11.6423 20.7839 11.8194 20.8335 12 20.8335C12.1806 20.8335 12.3577 20.7839 12.512 20.69C21.125 15.395 22 10.157 22 7.95C22 5.216 19.761 3 17 3C14.239 3 12 6 12 6C12 6 9.761 3 7 3Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+          </figure>
+          <div class="h5 my-1 d-flex justify-content-between">
+            Current Bid : <span class="explore-bid">540.0 ETH</span>
+          </div>
+          <h3>JBoyd Stoltenberg</h3>
+        </div>
+        <footer class="explore-footer d-flex">
+                    <figure class="avatar">
+            <img src="assets/avatar-8.jpg" alt="">
+          </figure>
+                    <figure class="avatar">
+            <img src="assets/avatar-14.jpg" alt="">
+          </figure>
+                    <figure class="avatar">
+            <img src="assets/avatar-3.jpg" alt="">
+          </figure>
+                    <figure class="avatar">
+            <img src="assets/avatar-10.jpg" alt="">
+          </figure>
+                    <figure class="avatar">
+            <img src="assets/avatar-9.jpg" alt="">
+          </figure>
+                    <div class="explore-like-count">65</div>
+        </footer>
+      </section>
+    </div>
+        <div class="md:c-6 lg:c-4 p-0.5">
+      <section class="explore-card p-0.5">
+        <div class="explore-body pb-1 mb-1">
+          <figure class="explore-thumb">
+            <img src="assets/explore-5.jpg" alt="">
+            <p class="explore-time p-0.25 text-center h5">Ends in: 50h:30m:20s</p>
+            <a href="#" class="explore-cat">Utility</a>
+            <a href="#" class="explore-like"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M7 3C4.239 3 2 5.216 2 7.95C2 10.157 2.875 15.395 11.488 20.69C11.6423 20.7839 11.8194 20.8335 12 20.8335C12.1806 20.8335 12.3577 20.7839 12.512 20.69C21.125 15.395 22 10.157 22 7.95C22 5.216 19.761 3 17 3C14.239 3 12 6 12 6C12 6 9.761 3 7 3Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+          </figure>
+          <div class="h5 my-1 d-flex justify-content-between">
+            Current Bid : <span class="explore-bid">540.0 ETH</span>
+          </div>
+          <h3>Monica Gaylord</h3>
+        </div>
+        <footer class="explore-footer d-flex">
+                    <figure class="avatar">
+            <img src="assets/avatar-1.jpg" alt="">
+          </figure>
+                    <figure class="avatar">
+            <img src="assets/avatar-12.jpg" alt="">
+          </figure>
+                    <figure class="avatar">
+            <img src="assets/avatar-3.jpg" alt="">
+          </figure>
+                    <figure class="avatar">
+            <img src="assets/avatar-14.jpg" alt="">
+          </figure>
+                    <figure class="avatar">
+            <img src="assets/avatar-5.jpg" alt="">
+          </figure>
+                    <div class="explore-like-count">46</div>
+        </footer>
+      </section>
+    </div>
+        <div class="md:c-6 lg:c-4 p-0.5">
+      <section class="explore-card p-0.5">
+        <div class="explore-body pb-1 mb-1">
+          <figure class="explore-thumb">
+            <img src="assets/explore-6.jpg" alt="">
+            <p class="explore-time p-0.25 text-center h5">Ends in: 50h:30m:20s</p>
+            <a href="#" class="explore-cat">Art</a>
+            <a href="#" class="explore-like"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M7 3C4.239 3 2 5.216 2 7.95C2 10.157 2.875 15.395 11.488 20.69C11.6423 20.7839 11.8194 20.8335 12 20.8335C12.1806 20.8335 12.3577 20.7839 12.512 20.69C21.125 15.395 22 10.157 22 7.95C22 5.216 19.761 3 17 3C14.239 3 12 6 12 6C12 6 9.761 3 7 3Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+          </figure>
+          <div class="h5 my-1 d-flex justify-content-between">
+            Current Bid : <span class="explore-bid">540.0 ETH</span>
+          </div>
+          <h3>Johnny Turcotte</h3>
+        </div>
+        <footer class="explore-footer d-flex">
+                    <figure class="avatar">
+            <img src="assets/avatar-11.jpg" alt="">
+          </figure>
+                    <figure class="avatar">
+            <img src="assets/avatar-2.jpg" alt="">
+          </figure>
+                    <figure class="avatar">
+            <img src="assets/avatar-13.jpg" alt="">
+          </figure>
+                    <figure class="avatar">
+            <img src="assets/avatar-7.jpg" alt="">
+          </figure>
+                    <figure class="avatar">
+            <img src="assets/avatar-6.jpg" alt="">
+          </figure>
+                    <div class="explore-like-count">94</div>
+        </footer>
+      </section>
+    </div>
+    
+  </div>
+</section>
+  </div>
+  <aside class="grid align-content-start lg:c-3 px-1 lg:pl-0.5 mt-2 lg:mt-0">
+    <div class="md:c-6 lg:c-12 md:pr-0.5 lg:pr-0">
+      <section class="side-section py-1 px-0.5 sm:px-1">
+  <h2 class="h3">Top Artist</h2>
+  <div class="mt-1">
+
+        <div class="artist d-flex align-items-center">
+      <figure class="avatar d-none lg:d-block">
+        <img src="assets/avatar-5.jpg" alt="">
+      </figure>
+      <div class="flex-1 mr-0.25 lg:ml-0.25">
+        <a href="#" class="d-block link-white h5">Brooklyn Simmons</a>
+        <small class="h6 text-muted">@brosim</small>
+      </div>
+      <a href="#" class="btn-follow">Follow</a>
+    </div>
+        <div class="artist d-flex align-items-center">
+      <figure class="avatar d-none lg:d-block">
+        <img src="assets/avatar-2.jpg" alt="">
+      </figure>
+      <div class="flex-1 mr-0.25 lg:ml-0.25">
+        <a href="#" class="d-block link-white h5">Jenny Wilson</a>
+        <small class="h6 text-muted">@jenny</small>
+      </div>
+      <a href="#" class="btn-follow">Follow</a>
+    </div>
+        <div class="artist d-flex align-items-center">
+      <figure class="avatar d-none lg:d-block">
+        <img src="assets/avatar-1.jpg" alt="">
+      </figure>
+      <div class="flex-1 mr-0.25 lg:ml-0.25">
+        <a href="#" class="d-block link-white h5">Theresa Webb</a>
+        <small class="h6 text-muted">@theresa</small>
+      </div>
+      <a href="#" class="btn-follow">Follow</a>
+    </div>
+        <div class="artist d-flex align-items-center">
+      <figure class="avatar d-none lg:d-block">
+        <img src="assets/avatar-4.jpg" alt="">
+      </figure>
+      <div class="flex-1 mr-0.25 lg:ml-0.25">
+        <a href="#" class="d-block link-white h5">Courtney Henry</a>
+        <small class="h6 text-muted">@courtney</small>
+      </div>
+      <a href="#" class="btn-follow">Follow</a>
+    </div>
+    
+  </div>
+</section>
+    </div>
+    <div class="md:c-6 lg:c-12 md:pl-0.5 lg:pl-0 mt-2 md:mt-0 lg:mt-2">
+      <section class="side-section p-1">
+  <h2 class="h3">Recent Activity</h2>
+
+  <ul class="list-plain mt-1">
+        <li class="activity-item unread">
+      <figure class="avatar">
+        <img src="assets/avatar-6.jpg" alt="">
+      </figure>
+      <div class="ml-0.5">
+        <p class="h5">Water Bender <span class="ml-0.25 unread-mark"></span></p>
+        <small class="text-muted h6">Purchased by you for 0,5 ETH</small>
+      </div>
+    </li>
+        <li class="activity-item ">
+      <figure class="avatar">
+        <img src="assets/avatar-13.jpg" alt="">
+      </figure>
+      <div class="ml-0.5">
+        <p class="h5">Johnny Turcotte </p>
+        <small class="text-muted h6">0.13 ETH received by you</small>
+      </div>
+    </li>
+        <li class="activity-item ">
+      <figure class="avatar">
+        <img src="assets/avatar-7.jpg" alt="">
+      </figure>
+      <div class="ml-0.5">
+        <p class="h5">Everett Trantow </p>
+        <small class="text-muted h6">Liked your post “Water Bender”</small>
+      </div>
+    </li>
+        <li class="activity-item ">
+      <figure class="avatar">
+        <img src="assets/avatar-9.jpg" alt="">
+      </figure>
+      <div class="ml-0.5">
+        <p class="h5">Glenn Cummings </p>
+        <small class="text-muted h6">Started following you</small>
+      </div>
+    </li>
+        <li class="activity-item ">
+      <figure class="avatar">
+        <img src="assets/avatar-8.jpg" alt="">
+      </figure>
+      <div class="ml-0.5">
+        <p class="h5">Julie Braun </p>
+        <small class="text-muted h6">Started following you</small>
+      </div>
+    </li>
+        <li class="activity-item ">
+      <figure class="avatar">
+        <img src="assets/avatar-10.jpg" alt="">
+      </figure>
+      <div class="ml-0.5">
+        <p class="h5">Tyler Boyer </p>
+        <small class="text-muted h6">Started following you</small>
+      </div>
+    </li>
+        <li class="activity-item ">
+      <figure class="avatar">
+        <img src="assets/avatar-11.jpg" alt="">
+      </figure>
+      <div class="ml-0.5">
+        <p class="h5">Monica Gaylord </p>
+        <small class="text-muted h6">Started following you</small>
+      </div>
+    </li>
+        <li class="activity-item ">
+      <figure class="avatar">
+        <img src="assets/avatar-12.jpg" alt="">
+      </figure>
+      <div class="ml-0.5">
+        <p class="h5">Bernice Upton </p>
+        <small class="text-muted h6">Started following you</small>
+      </div>
+    </li>
+        <li class="activity-item ">
+      <figure class="avatar">
+        <img src="assets/avatar-14.jpg" alt="">
+      </figure>
+      <div class="ml-0.5">
+        <p class="h5">JBoyd Stoltenberg </p>
+        <small class="text-muted h6">Started following you</small>
+      </div>
+    </li>
+      </ul>
+</section>
+    </div>
+  </aside>
+</main>
+      <input type="checkbox" id="navcheck">
+<div class="navbar-toggle">
+  <div class="brand p-0.5">
+    <label for="navcheck" class="nav-close mr-1">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2_2821)">
+<path d="M11.7688 10.0008L19.6335 2.13602C20.1222 1.6478 20.1222 0.85566 19.6335 0.367448C19.1449 -0.121181 18.3536 -0.121181 17.865 0.367448L10.0002 8.2322L2.13504 0.367448C1.64641 -0.121181 0.8551 -0.121181 0.366471 0.367448C-0.122157 0.85566 -0.122157 1.6478 0.366471 2.13602L8.23164 10.0008L0.366471 17.8655C-0.122157 18.3537 -0.122157 19.1459 0.366471 19.6341C0.610786 19.878 0.930979 20.0001 1.25076 20.0001C1.57053 20.0001 1.89073 19.878 2.13504 19.6337L10.0002 11.7689L17.865 19.6337C18.1093 19.878 18.4295 20.0001 18.7492 20.0001C19.069 20.0001 19.3892 19.878 19.6335 19.6337C20.1222 19.1455 20.1222 18.3533 19.6335 17.8651L11.7688 10.0008Z" fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0_2_2821">
+<rect width="20" height="20" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+    </label>
+    <a href="index.html" class="brand-icon">
+      <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M20 1.25C30.3425 1.25 38.75 9.6575 38.75 20C38.75 30.3425 30.3425 38.75 20 38.75C9.6575 38.75 1.25 30.3425 1.25 20C1.25 9.6575 9.6575 1.25 20 1.25Z" fill="url(#paint0_linear_2_2884)"/>
+<path d="M20 22.25V34.25L12.5 20L20 22.25Z" fill="url(#paint1_linear_2_2884)"/>
+<path d="M20 4.25L27.5 20L20 22.25V4.25Z" fill="url(#paint2_linear_2_2884)"/>
+<path d="M27.5 20L20 34.25V22.25L27.5 20Z" fill="url(#paint3_linear_2_2884)"/>
+<path d="M20 4.25V22.25L12.5 20L20 4.25Z" fill="url(#paint4_linear_2_2884)"/>
+<path d="M6.45843 12.7009C6.27467 12.5056 6.30113 12.1991 6.32341 11.9319C6.4085 10.9114 6.93177 8.23833 10.0535 7.44539C13.6885 6.52208 7.55608 13.8678 6.45843 12.7009Z" fill="url(#paint5_linear_2_2884)"/>
+<path d="M20.6773 3.9275C20.5528 3.6665 20.2895 3.5 20 3.5C19.7105 3.5 19.4473 3.6665 19.3228 3.9275L11.8228 19.6775C11.7208 19.8905 11.726 20.1395 11.8363 20.3495L19.3363 34.5995C19.466 34.8455 19.7218 35 20 35C20.2783 35 20.534 34.8455 20.6638 34.5995L28.1638 20.3495C28.274 20.1402 28.2793 19.8913 28.1773 19.6775L20.6773 3.9275ZM20.75 7.5695L26.447 19.5328L20.75 21.242V7.5695ZM19.25 21.242L13.553 19.5328L19.25 7.5695V21.242ZM19.25 22.808V31.214L13.9955 21.2315L19.25 22.808ZM20.75 22.808L26.0045 21.2315L20.75 31.2147V22.808Z" fill="white"/>
+<path d="M20 0.5C9.248 0.5 0.5 9.24725 0.5 20C0.5 30.7528 9.248 39.5 20 39.5C30.752 39.5 39.5 30.7528 39.5 20C39.5 9.24725 30.752 0.5 20 0.5ZM20 38C10.0753 38 2 29.9247 2 20C2 10.0753 10.0753 2 20 2C29.9247 2 38 10.0753 38 20C38 29.9247 29.9247 38 20 38Z" fill="#6763FD"/>
+<defs>
+<linearGradient id="paint0_linear_2_2884" x1="3.18965" y1="3.75" x2="43.2063" y2="13.6155" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6763FD"/>
+<stop offset="1" stop-color="#B84EF1"/>
+</linearGradient>
+<linearGradient id="paint1_linear_2_2884" x1="12.8879" y1="20.95" x2="21.2371" y2="22.0334" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6763FD"/>
+<stop offset="1" stop-color="#B84EF1"/>
+</linearGradient>
+<linearGradient id="paint2_linear_2_2884" x1="20.3879" y1="5.45" x2="28.7891" y2="6.31299" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6763FD"/>
+<stop offset="1" stop-color="#B84EF1"/>
+</linearGradient>
+<linearGradient id="paint3_linear_2_2884" x1="20.3879" y1="20.95" x2="28.7371" y2="22.0334" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6763FD"/>
+<stop offset="1" stop-color="#B84EF1"/>
+</linearGradient>
+<linearGradient id="paint4_linear_2_2884" x1="12.8879" y1="5.45" x2="21.2891" y2="6.31299" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6763FD"/>
+<stop offset="1" stop-color="#B84EF1"/>
+</linearGradient>
+<linearGradient id="paint5_linear_2_2884" x1="6.56004" y1="7.72901" x2="11.8333" y2="8.89169" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6763FD"/>
+<stop offset="1" stop-color="#B84EF1"/>
+</linearGradient>
+</defs>
+</svg>
+      <h1 class="brand-text h3 ml-0.5 text-gradient">CuanMakers</h1>
+    </a>
+  </div>
+  <div class="h5 eth mx-0.5 my-1 d-flex md:d-none">
+    <?xml version="1.0" encoding="UTF-8"?>
+<svg width="24" height="24" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#c)">
+<path d="m12.142 15.576c-0.0815 0.0388-0.1762 0.0388-0.2577 0l-5.5818-2.6554c-0.26538-0.1262-0.53522 0.1648-0.38926 0.4199l5.8395 10.205c0.1153 0.2013 0.4056 0.2013 0.5208 0l5.8397-10.205c0.146-0.2551-0.1238-0.5461-0.3892-0.4199l-5.582 2.6554zm-2.7664 0.9742c-0.14596-0.2551 0.12388-0.5462 0.38926-0.4199l2.1195 1.0083c0.0815 0.0388 0.1762 0.0388 0.2577 0l2.1196-1.0083c0.2654-0.1263 0.5352 0.1648 0.3893 0.4199l-2.3774 4.1543c-0.1152 0.2014-0.4055 0.2014-0.5207 0l-2.3772-4.1543z" fill="url(#b)"/>
+<path d="m18.172 11.13c0.1056-0.05 0.146-0.1794 0.0878-0.2806l-6.0735-10.548c-0.0769-0.13361-0.2697-0.13361-0.3466 3e-6l-6.0732 10.548c-0.05825 0.1012-0.01781 0.2306 0.08771 0.2806l6.0732 2.8767c0.0542 0.0257 0.117 0.0257 0.1712 0l6.0734-2.8767zm-6.3323-8.0011c0.0769-0.13361 0.2697-0.13361 0.3466 0l3.1321 5.4398c0.0978 0.16988-0.0818 0.36445-0.2589 0.28054l-2.9609-1.4024c-0.0542-0.02567-0.117-0.02567-0.1712 0l-2.9606 1.4024c-0.17716 0.08392-0.35675-0.11066-0.25894-0.28054l3.1319-5.4397zm0.0877 5.8792c0.0542-0.02567 0.117-0.02567 0.1712 0l3.2468 1.538c0.1525 0.0723 0.1525 0.2893-1e-4 0.3615l-3.2467 1.5378c-0.0542 0.0257-0.117 0.0257-0.1712 0l-3.2466-1.5378c-0.15251-0.0722-0.15251-0.2892-1e-5 -0.3615l3.2466-1.538z" fill="url(#a)"/>
+</g>
+<defs>
+<linearGradient id="b" x1="6.1178" x2="19.907" y1="13.275" y2="17.166" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6763FD" offset="0"/>
+<stop stop-color="#B84EF1" offset="1"/>
+</linearGradient>
+<linearGradient id="a" x1="6.3159" x2="20.021" y1=".93649" y2="3.9935" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6763FD" offset="0"/>
+<stop stop-color="#B84EF1" offset="1"/>
+</linearGradient>
+<clipPath id="c">
+<rect width="24" height="24" fill="#fff"/>
+</clipPath>
+</defs>
+</svg>
+    <span>543,694,489 ETH</span>
+  </div>
+  <nav class="mainnav md:mt-2">
+    <a href="#" class="nav-link current">
+      <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M30.9724 33.75H21.9026C20.3715 33.75 19.125 32.5035 19.125 30.9724V19.6526C19.125 18.1215 20.3715 16.875 21.9026 16.875H30.9724C32.5035 16.875 33.75 18.1215 33.75 19.6526V30.9724C33.75 32.5035 32.5035 33.75 30.9724 33.75V33.75ZM21.9026 19.125C21.6112 19.125 21.375 19.3612 21.375 19.6526V30.9724C21.375 31.2638 21.6112 31.5 21.9026 31.5H30.9724C31.2638 31.5 31.5 31.2638 31.5 30.9724V19.6526C31.5 19.3612 31.2638 19.125 30.9724 19.125H21.9026Z" fill="url(#paint0_linear_1412_850)"/>
+<path d="M30.9724 14.625H21.9026C20.3715 14.625 19.125 13.3785 19.125 11.8474V5.02762C19.125 3.4965 20.3715 2.25 21.9026 2.25H30.9724C32.5035 2.25 33.75 3.4965 33.75 5.02762V11.8474C33.75 13.3785 32.5035 14.625 30.9724 14.625V14.625ZM21.9026 4.5C21.6112 4.5 21.375 4.73625 21.375 5.02762V11.8474C21.375 12.1388 21.6112 12.375 21.9026 12.375H30.9724C31.2638 12.375 31.5 12.1388 31.5 11.8474V5.02762C31.5 4.73625 31.2638 4.5 30.9724 4.5H21.9026Z" fill="url(#paint1_linear_1412_850)"/>
+<path d="M14.0974 19.125H5.02762C3.4965 19.125 2.25 17.8785 2.25 16.3474V5.02762C2.25 3.4965 3.4965 2.25 5.02762 2.25H14.0974C15.6285 2.25 16.875 3.4965 16.875 5.02762V16.3474C16.875 17.8785 15.6285 19.125 14.0974 19.125ZM5.02762 4.5C4.73625 4.5 4.5 4.73625 4.5 5.02762V16.3474C4.5 16.6388 4.73625 16.875 5.02762 16.875H14.0974C14.3888 16.875 14.625 16.6388 14.625 16.3474V5.02762C14.625 4.73625 14.3888 4.5 14.0974 4.5H5.02762Z" fill="url(#paint2_linear_1412_850)"/>
+<path d="M14.0974 33.75H5.02762C3.4965 33.75 2.25 32.5035 2.25 30.9724V24.1526C2.25 22.6215 3.4965 21.375 5.02762 21.375H14.0974C15.6285 21.375 16.875 22.6215 16.875 24.1526V30.9724C16.875 32.5035 15.6285 33.75 14.0974 33.75ZM5.02762 23.625C4.73625 23.625 4.5 23.8612 4.5 24.1526V30.9724C4.5 31.2638 4.73625 31.5 5.02762 31.5H14.0974C14.3888 31.5 14.625 31.2638 14.625 30.9724V24.1526C14.625 23.8612 14.3888 23.625 14.0974 23.625H5.02762Z" fill="url(#paint3_linear_1412_850)"/>
+<defs>
+<linearGradient id="paint0_linear_1412_850" x1="19.8815" y1="18" x2="35.7137" y2="21.3828" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6763FD"/>
+<stop offset="1" stop-color="#B84EF1"/>
+</linearGradient>
+<linearGradient id="paint1_linear_1412_850" x1="19.8815" y1="3.075" x2="35.1411" y2="7.52105" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6763FD"/>
+<stop offset="1" stop-color="#B84EF1"/>
+</linearGradient>
+<linearGradient id="paint2_linear_1412_850" x1="3.00647" y1="3.375" x2="18.8387" y2="6.75779" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6763FD"/>
+<stop offset="1" stop-color="#B84EF1"/>
+</linearGradient>
+<linearGradient id="paint3_linear_1412_850" x1="3.00647" y1="22.2" x2="18.2661" y2="26.6461" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6763FD"/>
+<stop offset="1" stop-color="#B84EF1"/>
+</linearGradient>
+</defs>
+</svg>
+      <span class="nav-text ml-1">Dashboard</span>
+    </a>
+    <a href="#" class="nav-link">
+      <svg width="37" height="36" viewBox="0 0 37 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M30.5454 14.9555L26.0454 10.4554C25.8332 10.2505 25.549 10.1371 25.254 10.1397C24.9591 10.1423 24.6769 10.2606 24.4683 10.4692C24.2597 10.6777 24.1414 10.9599 24.1389 11.2549C24.1363 11.5498 24.2497 11.834 24.4546 12.0462C25.4065 12.9982 24.7323 14.6258 23.3861 14.6258H11.75C11.4516 14.6258 11.1655 14.7444 10.9545 14.9553C10.7435 15.1663 10.625 15.4525 10.625 15.7508C10.625 16.0492 10.7435 16.3354 10.9545 16.5463C11.1655 16.7573 11.4516 16.8758 11.75 16.8758H29.75C29.9725 16.8758 30.1899 16.8098 30.3749 16.6862C30.5599 16.5625 30.704 16.3869 30.7891 16.1813C30.8743 15.9758 30.8965 15.7496 30.8532 15.5314C30.8098 15.3132 30.7027 15.1128 30.5454 14.9555Z" fill="url(#paint0_linear_1402_42)"/>
+<path d="M25.2499 19.125H7.24994C7.02747 19.125 6.81001 19.1911 6.62505 19.3147C6.44009 19.4383 6.29593 19.614 6.21081 19.8195C6.12568 20.025 6.1034 20.2512 6.14679 20.4694C6.19018 20.6876 6.29728 20.888 6.45457 21.0454L10.9546 25.5454C11.1667 25.7503 11.4509 25.8637 11.7459 25.8611C12.0409 25.8586 12.323 25.7402 12.5316 25.5317C12.7402 25.3231 12.8585 25.0409 12.8611 24.7459C12.8636 24.451 12.7502 24.1668 12.5453 23.9546C11.5934 23.0027 12.2676 21.375 13.6139 21.375H25.2499C25.5483 21.375 25.8345 21.2565 26.0454 21.0455C26.2564 20.8345 26.3749 20.5484 26.3749 20.25C26.3749 19.9516 26.2564 19.6655 26.0454 19.4545C25.8345 19.2435 25.5483 19.125 25.2499 19.125Z" fill="url(#paint1_linear_1402_42)"/>
+<defs>
+<linearGradient id="paint0_linear_1402_42" x1="11.6724" y1="10.5887" x2="26.468" y2="21.554" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6763FD"/>
+<stop offset="1" stop-color="#B84EF1"/>
+</linearGradient>
+<linearGradient id="paint1_linear_1402_42" x1="7.17258" y1="19.5741" x2="21.9682" y2="30.5393" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6763FD"/>
+<stop offset="1" stop-color="#B84EF1"/>
+</linearGradient>
+</defs>
+</svg>
+      <span class="nav-text ml-1">Activity</span>
+    </a>
+    <a href="#" class="nav-link">
+      <svg width="37" height="36" viewBox="0 0 37 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M32 14.625H27.5C27.2016 14.625 26.9155 14.7435 26.7045 14.9545C26.4935 15.1655 26.375 15.4516 26.375 15.75C26.375 16.0484 26.4935 16.3345 26.7045 16.5455C26.9155 16.7565 27.2016 16.875 27.5 16.875H30.3212C30.627 16.875 30.875 17.123 30.875 17.4288V27C30.874 27.8948 30.5181 28.7527 29.8854 29.3854C29.2527 30.0181 28.3948 30.374 27.5 30.375C26.6051 30.3743 25.7471 30.0184 25.1143 29.3857C24.4816 28.7529 24.1257 27.8949 24.125 27V4.5C24.125 4.20163 24.0065 3.91548 23.7955 3.7045C23.5845 3.49353 23.2984 3.375 23 3.375H5C4.70163 3.375 4.41548 3.49353 4.2045 3.7045C3.99353 3.91548 3.875 4.20163 3.875 4.5C3.875 4.79837 3.99353 5.08452 4.2045 5.29549C4.41548 5.50647 4.70163 5.625 5 5.625H21.3212C21.627 5.625 21.875 5.87297 21.875 6.17885V27C21.8724 27.8447 22.0616 28.6739 22.4225 29.4272C22.6199 29.8394 22.3448 30.375 21.8877 30.375H9.5C8.60512 30.3743 7.74711 30.0184 7.11434 29.3857C6.48156 28.7529 6.12574 27.8949 6.125 27V9C6.125 8.70163 6.00647 8.41548 5.79549 8.2045C5.58452 7.99353 5.29837 7.875 5 7.875C4.70163 7.875 4.41548 7.99353 4.2045 8.2045C3.99353 8.41548 3.875 8.70163 3.875 9V27C3.875 28.4918 4.46763 29.9226 5.52252 30.9775C6.57742 32.0324 8.00816 32.625 9.5 32.625H27.5C28.9913 32.6232 30.421 32.03 31.4755 30.9755C32.53 29.921 33.1232 28.4913 33.125 27V15.75C33.125 15.4516 33.0065 15.1655 32.7955 14.9545C32.5845 14.7435 32.2984 14.625 32 14.625Z" fill="url(#paint0_linear_1402_47)"/>
+<path d="M9.5 12.375H18.5C18.7984 12.375 19.0845 12.2565 19.2955 12.0455C19.5065 11.8345 19.625 11.5484 19.625 11.25C19.625 10.9516 19.5065 10.6655 19.2955 10.4545C19.0845 10.2435 18.7984 10.125 18.5 10.125H9.5C9.20163 10.125 8.91548 10.2435 8.70451 10.4545C8.49353 10.6655 8.375 10.9516 8.375 11.25C8.375 11.5484 8.49353 11.8345 8.70451 12.0455C8.91548 12.2565 9.20163 12.375 9.5 12.375Z" fill="url(#paint1_linear_1402_47)"/>
+<path d="M9.5 16.875H18.5C18.7984 16.875 19.0845 16.7565 19.2955 16.5455C19.5065 16.3345 19.625 16.0484 19.625 15.75C19.625 15.4516 19.5065 15.1655 19.2955 14.9545C19.0845 14.7435 18.7984 14.625 18.5 14.625H9.5C9.20163 14.625 8.91548 14.7435 8.70451 14.9545C8.49353 15.1655 8.375 15.4516 8.375 15.75C8.375 16.0484 8.49353 16.3345 8.70451 16.5455C8.91548 16.7565 9.20163 16.875 9.5 16.875Z" fill="url(#paint2_linear_1402_47)"/>
+<path d="M9.5 21.375H18.5C18.7984 21.375 19.0845 21.2565 19.2955 21.0455C19.5065 20.8345 19.625 20.5484 19.625 20.25C19.625 19.9516 19.5065 19.6655 19.2955 19.4545C19.0845 19.2435 18.7984 19.125 18.5 19.125H9.5C9.20163 19.125 8.91548 19.2435 8.70451 19.4545C8.49353 19.6655 8.375 19.9516 8.375 20.25C8.375 20.5484 8.49353 20.8345 8.70451 21.0455C8.91548 21.2565 9.20163 21.375 9.5 21.375Z" fill="url(#paint3_linear_1402_47)"/>
+<path d="M11.75 23.625C11.4516 23.625 11.1655 23.7435 10.9545 23.9545C10.7435 24.1655 10.625 24.4516 10.625 24.75C10.625 25.0484 10.7435 25.3345 10.9545 25.5455C11.1655 25.7565 11.4516 25.875 11.75 25.875H16.25C16.5484 25.875 16.8345 25.7565 17.0455 25.5455C17.2565 25.3345 17.375 25.0484 17.375 24.75C17.375 24.4516 17.2565 24.1655 17.0455 23.9545C16.8345 23.7435 16.5484 23.625 16.25 23.625H11.75Z" fill="url(#paint4_linear_1402_47)"/>
+<defs>
+<linearGradient id="paint0_linear_1402_47" x1="5.38793" y1="5.325" x2="36.6009" y2="13.0201" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6763FD"/>
+<stop offset="1" stop-color="#B84EF1"/>
+</linearGradient>
+<linearGradient id="paint1_linear_1402_47" x1="8.9569" y1="10.275" x2="14.0113" y2="16.5055" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6763FD"/>
+<stop offset="1" stop-color="#B84EF1"/>
+</linearGradient>
+<linearGradient id="paint2_linear_1402_47" x1="8.9569" y1="14.775" x2="14.0113" y2="21.0055" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6763FD"/>
+<stop offset="1" stop-color="#B84EF1"/>
+</linearGradient>
+<linearGradient id="paint3_linear_1402_47" x1="8.9569" y1="19.275" x2="14.0113" y2="25.5055" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6763FD"/>
+<stop offset="1" stop-color="#B84EF1"/>
+</linearGradient>
+<linearGradient id="paint4_linear_1402_47" x1="10.9741" y1="23.775" x2="15.9132" y2="27.428" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6763FD"/>
+<stop offset="1" stop-color="#B84EF1"/>
+</linearGradient>
+</defs>
+</svg>
+      <span class="nav-text ml-1">Transaction</span>
+    </a>
+    <a href="#" class="nav-link">
+      <svg width="37" height="36" viewBox="0 0 37 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M31.4375 28.125C31.7482 28.125 32 27.8732 32 27.5625V27C32 26.379 32.504 25.875 33.125 25.875C33.746 25.875 34.25 26.379 34.25 27V29.25C34.25 29.8716 33.7466 30.375 33.125 30.375H3.875C3.25344 30.375 2.75 29.8716 2.75 29.25V6.75C2.75 6.12844 3.25344 5.625 3.875 5.625H33.125C33.7466 5.625 34.25 6.12844 34.25 6.75V22.5C34.25 23.121 33.746 23.625 33.125 23.625C32.504 23.625 32 23.121 32 22.5V8.4375C32 8.12684 31.7482 7.875 31.4375 7.875H5.5625C5.25184 7.875 5 8.12684 5 8.4375V27.5625C5 27.8732 5.25184 28.125 5.5625 28.125H31.4375Z" fill="url(#paint0_linear_1402_59)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M26.6255 15.3151C26.9993 15.5642 27.5 15.2962 27.5 14.847V6.75C27.5 6.129 28.004 5.625 28.625 5.625C29.246 5.625 29.75 6.129 29.75 6.75V18C29.75 18.4151 29.5216 18.7959 29.156 18.9917C28.7898 19.1874 28.346 19.1661 28.0012 18.936L25.562 17.3102C25.3731 17.1843 25.1269 17.1843 24.938 17.3102L22.4988 18.936C22.154 19.1661 21.7102 19.1874 21.344 18.9917C20.9784 18.7959 20.75 18.4151 20.75 18V6.75C20.75 6.129 21.254 5.625 21.875 5.625C22.496 5.625 23 6.129 23 6.75V14.847C23 15.2962 23.5007 15.5642 23.8745 15.3151L24.6262 14.814C25.0036 14.562 25.4964 14.562 25.8738 14.814L26.6255 15.3151Z" fill="url(#paint1_linear_1402_59)"/>
+<defs>
+<linearGradient id="paint0_linear_1402_59" x1="4.37931" y1="7.275" x2="36.8404" y2="17.4604" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6763FD"/>
+<stop offset="1" stop-color="#B84EF1"/>
+</linearGradient>
+<linearGradient id="paint1_linear_1402_59" x1="21.2155" y1="6.52499" x2="31.1353" y2="8.15539" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6763FD"/>
+<stop offset="1" stop-color="#B84EF1"/>
+</linearGradient>
+</defs>
+</svg>
+      <span class="nav-text ml-1">My Collection</span>
+    </a>
+    <a href="#" class="nav-link">
+      <svg width="37" height="36" viewBox="0 0 37 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M18.5 12.375C15.3984 12.375 12.875 14.8984 12.875 18C12.875 21.1016 15.3984 23.625 18.5 23.625C21.6016 23.625 24.125 21.1016 24.125 18C24.125 14.8984 21.6016 12.375 18.5 12.375ZM18.5 21.375C16.6393 21.375 15.125 19.8608 15.125 18C15.125 16.1393 16.6393 14.625 18.5 14.625C20.3608 14.625 21.875 16.1393 21.875 18C21.875 19.8608 20.3608 21.375 18.5 21.375Z" fill="url(#paint0_linear_1402_55)"/>
+<path d="M31.4668 20.2905L30.8751 19.9485C30.1708 19.5424 29.7501 18.8134 29.7501 18C29.7501 17.1866 30.1708 16.4576 30.8751 16.0515L31.4668 15.7095C33.0823 14.7769 33.6347 12.7148 32.7021 11.0992L31.5771 9.15075C30.6467 7.53863 28.5778 6.98513 26.9668 7.9155L26.3751 8.25638C25.6708 8.66363 24.8282 8.66363 24.1251 8.25638C23.4208 7.84912 23.0001 7.12125 23.0001 6.30787V5.625C23.0001 3.76425 21.4858 2.25 19.6251 2.25H17.3751C15.5143 2.25 14.0001 3.76425 14.0001 5.625V6.309C14.0001 7.12237 13.5793 7.85025 12.8751 8.2575C12.1708 8.66363 11.3293 8.66475 10.6251 8.2575L10.0333 7.9155C8.42231 6.98513 6.35344 7.53863 5.42194 9.15075L4.29694 11.0992C3.36431 12.7148 3.91669 14.7769 5.53219 15.7095L6.12506 16.0515C6.82931 16.4576 7.25006 17.1866 7.25006 18C7.25006 18.8134 6.82931 19.5424 6.12506 19.9485L5.53331 20.2905C3.91781 21.2231 3.36544 23.2852 4.29806 24.9007L5.42306 26.8493C6.35456 28.4614 8.42344 29.0149 10.0333 28.0845L10.6251 27.7436C11.3293 27.3353 12.1708 27.3375 12.8751 27.7436C13.5793 28.1509 14.0001 28.8787 14.0001 29.6921V30.375C14.0001 32.2358 15.5143 33.75 17.3751 33.75H19.6251C21.4858 33.75 23.0001 32.2358 23.0001 30.375V29.691C23.0001 28.8776 23.4208 28.1497 24.1251 27.7425C24.8282 27.3364 25.6708 27.3352 26.3751 27.7425L26.9668 28.0845C28.5778 29.0138 30.6467 28.4602 31.5771 26.8493L32.7021 24.9007C33.6347 23.2852 33.0823 21.2231 31.4668 20.2905ZM30.7536 23.7757L29.6286 25.7243C29.3169 26.2665 28.6228 26.4454 28.0918 26.136L27.5001 25.794C26.0904 24.9806 24.4086 24.9806 23.0001 25.794C21.5916 26.6074 20.7501 28.0643 20.7501 29.691V30.375C20.7501 30.9949 20.2449 31.5 19.6251 31.5H17.3751C16.7552 31.5 16.2501 30.9949 16.2501 30.375V29.691C16.2501 28.0643 15.4086 26.6074 14.0001 25.794C12.5916 24.9806 10.9086 24.9806 9.50006 25.794L8.90831 26.136C8.37169 26.4487 7.68206 26.262 7.37156 25.7243L6.24656 23.7757C5.93156 23.2301 6.12731 22.545 6.65831 22.239L7.25006 21.897C8.65856 21.0836 9.50006 19.6267 9.50006 18C9.50006 16.3733 8.65856 14.9164 7.25006 14.103L6.65831 13.761C6.12844 13.4561 5.93156 12.7699 6.24656 12.2242L7.37156 10.2758C7.68769 9.72675 8.38519 9.56025 8.90831 9.864L9.50006 10.206C10.9097 11.0194 12.5916 11.0194 14.0001 10.206C15.4086 9.39262 16.2501 7.93575 16.2501 6.309V5.625C16.2501 5.00513 16.7552 4.5 17.3751 4.5H19.6251C20.2449 4.5 20.7501 5.00513 20.7501 5.625V6.309C20.7501 7.93575 21.5916 9.39262 23.0001 10.206C24.4086 11.0194 26.0916 11.0194 27.5001 10.206L28.0918 9.864C28.6239 9.55687 29.3147 9.73125 29.6286 10.2758L30.7536 12.2242C31.0686 12.7699 30.8728 13.455 30.3418 13.761L29.7501 14.103C28.3416 14.9164 27.5001 16.3733 27.5001 18C27.5001 19.6267 28.3416 21.0836 29.7501 21.897L30.3418 22.239C30.8728 22.545 31.0686 23.2301 30.7536 23.7757Z" fill="url(#paint1_linear_1402_55)"/>
+<defs>
+<linearGradient id="paint0_linear_1402_55" x1="13.4569" y1="13.125" x2="25.4619" y2="16.0847" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6763FD"/>
+<stop offset="1" stop-color="#B84EF1"/>
+</linearGradient>
+<linearGradient id="paint1_linear_1402_55" x1="5.35975" y1="4.35" x2="36.8808" y2="11.5812" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6763FD"/>
+<stop offset="1" stop-color="#B84EF1"/>
+</linearGradient>
+</defs>
+</svg>
+      <span class="nav-text ml-1">Setting</span>
+    </a>
+  </nav>
+</div>
+    </div>
   </body>
 
 </html>
