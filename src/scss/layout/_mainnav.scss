@@ -16,11 +16,11 @@ $_nav-bg: #262d3a;
     background-color: $_nav-bg;
 
     @include sm-and-up {
-        width: auto;
-        max-width: $nav-max-width;
+        width: $nav-max-width;
     }
 
     @include md-and-up {
+        width: auto;
         min-width: $nav-width;
 
         &:hover {
