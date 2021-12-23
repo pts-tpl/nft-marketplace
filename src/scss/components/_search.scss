@@ -7,10 +7,11 @@
 }
 
 .search-input {
+    @extend .h5;
     background-color: #262d3a;
     color: white;
     border: none;
-    border-radius: 0.5 * $baseline;
+    border-radius: 0.25 * $baseline;
     padding: 0.25 * $baseline $baseline;
     padding-left: 1.5 * $baseline;
     width: 100%;
