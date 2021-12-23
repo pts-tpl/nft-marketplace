@@ -1,6 +1,8 @@
-# NFT Marketplace template
+# NFT Marketplace template (Pure CSS)
 
 > This template is created by using my own CSS micro-framework. As long as the framework is not open-sourced, you can't run this project on your computer.
+
+Demo link: https://pts-tpl.github.io/nft-marketplace/
 
 ## Development
   1. Clone the repository
